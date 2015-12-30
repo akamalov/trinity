@@ -1,5 +1,5 @@
-USER		:= "djrut"
-REPO		:= "trinity"
+USER		:= "akamalov"
+REPO		:= "trinity-alex"
 BUILDDIR	:= "Docker"
 VERSION		:= $(shell git describe --tags)
 IMAGE		:= $(USER)/$(REPO):$(VERSION)
